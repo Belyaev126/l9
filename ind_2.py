@@ -26,7 +26,7 @@ if __name__ == '__main__':
             surname = input("Фамилия ")
             name = input("Имя ")
             number = int(input("Номер телефона "))
-            year = list(map(int, input("Дата рождения в формате: дд,мм,гггг ").split('.')))
+            year = input("Дата рождения в формате: дд.мм.гггг ")
 
             if not number:
                 print("Поле не заполнено")
@@ -51,6 +51,7 @@ if __name__ == '__main__':
                 '-' * 20,
                 '-' * 15
             )
+            print(line)
             print(
                 '| {:^4} | {:^20} | {:^20} | {:^20} | {:^15} |'.format(
                     "№",
