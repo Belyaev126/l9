@@ -10,7 +10,8 @@
 
 
 import sys
-
+import json
+import xml.etree.ElementTree as ET
 
 if __name__ == '__main__':
 
@@ -63,7 +64,7 @@ if __name__ == '__main__':
 
             for idx, people in enumerate(peoples, 1):
                 print(
-                    '| {:>2} | {:<20} | {:<20} | {:<20} | {:>15} |'.format(
+                    '| {:>4} | {:<20} | {:<20} | {:<20} | {:>15} |'.format(
                         idx,
                         people.get('surname', ''),
                         people.get('name', ''),
