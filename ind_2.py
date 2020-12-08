@@ -76,7 +76,7 @@ if __name__ == '__main__':
             print(line)
 
         elif command.startswith('select '):
-            parts = command.split(' ', maxsplit=2)
+            parts = command.split(' ', maxsplit=20)
             sur = (parts[1])
 
             count = 0
