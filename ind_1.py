@@ -18,7 +18,7 @@ if __name__ == '__main__':
         sentences = text.split(".")
 
         for sentence in sentences:
-            if "-" in sentence:
+            if sentence.startswith('-'):
                 with open('text.txt', 'r')as s:
                     f_text = s.read()
                     if sentence in f_text:
