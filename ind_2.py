@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
             peoples.append(people)
             if len(peoples) > 1:
-                peoples.sort(key=lambda item: item.get('number', ''))
+                peoples.sort(key=lambda item: item.get('number', '3'))
 
         elif command == 'list':
             line = '+-{}-+-{}-+-{}-+-{}-+-{}-+'.format(
