@@ -21,5 +21,5 @@ if __name__ == '__main__':
             if sentence.startswith("-") in sentences:
                 text = f.read()
                 if sentence in text:
-                    print(f'{sentence}{text[text.rfind(sentence) + len(sentence)]}')
+                    print(sentence)
 
