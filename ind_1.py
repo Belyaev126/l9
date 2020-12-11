@@ -18,8 +18,6 @@ if __name__ == '__main__':
         sentences = text.split(".")
 
         for sentence in sentences:
-            if sentence.startswith("-") in sentences:
-                text = f.read()
-                if sentence in text:
+            if sentence.startswith("-"):
                     print(sentence)
 
