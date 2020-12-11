@@ -14,8 +14,6 @@ if __name__ == '__main__':
         sentences = text.split(".")
 
         for sentence in sentences:
-            if "," in sentence:
-                with open('text.txt', 'r')as s:
-                    f_text = s.read()
-                    if sentence in f_text:
-                        print(f'{sentence}{f_text[f_text.rfind(sentence)+len(sentence)]}')
+            if "," in sentences
+                    if sentence in text:
+                        print(sentence)
